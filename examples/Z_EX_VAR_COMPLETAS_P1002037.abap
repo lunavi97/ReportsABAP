@@ -1,12 +1,12 @@
 *&---------------------------------------------------------------------*
-*& Report  Z_EX_VARIABLES_COMPLETAS_P1002037
+*& Report  Z_EX_VAR_COMPLETAS_P1002037
 *&
 *&---------------------------------------------------------------------*
 *&
 *&
 *&---------------------------------------------------------------------*
 
-REPORT Z_EX_VARIABLES_COMPLETAS_P1002037.
+REPORT Z_EX_VAR_COMPLETAS_P1002037.
 
 * Declaración de variables tipo fecha
 DATA fecha TYPE d.
