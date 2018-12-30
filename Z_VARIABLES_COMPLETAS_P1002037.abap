@@ -1,16 +1,19 @@
 *&---------------------------------------------------------------------*
-*& Report  Z_VARIABLES_P1002037
+*& Report  Z_VARIABLES_COMPLETAS_P1002037
 *&
 *&---------------------------------------------------------------------*
 *&
 *&
 *&---------------------------------------------------------------------*
 
-REPORT Z_VARIABLES_P1002037.
+REPORT Z_VARIABLES_COMPLETAS_P1002037.
 
-* Declaración de variables tipo fecha
-DATA fecha type d.
+DATA iva type i.
 
-fecha = '20181229'.
+iva = 19.
 
-WRITE fecha DD/MM/YYYY.
+DATA empresa type string.
+
+empresa = 'LogaliSAP'.
+
+WRITE: iva, empresa.
