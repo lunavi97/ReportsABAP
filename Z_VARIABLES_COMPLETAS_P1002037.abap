@@ -8,11 +8,11 @@
 
 REPORT Z_VARIABLES_COMPLETAS_P1002037.
 
-DATA iva type i.
+DATA iva TYPE i.
 
 iva = 19.
 
-DATA empresa type string.
+DATA empresa TYPE string.
 
 empresa = 'LogaliSAP'.
 
