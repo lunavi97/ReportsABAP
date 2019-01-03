@@ -13,6 +13,7 @@ CLASS material DEFINITION.
   PUBLIC SECTION.
   METHODS: set_matnr IMPORTING i_matnr TYPE string,
            set_fecha_creacion IMPORTING i_fecha_creacion TYPE d.
+  CLASS-DATA almacen TYPE string.
 
   PROTECTED SECTION.
 
@@ -37,3 +38,7 @@ CLASS material IMPLEMENTATION.
   ENDMETHOD.
 
 ENDCLASS.
+
+START-OF-SELECTION.
+
+material=>almacen = '2000'.
